@@ -16,5 +16,9 @@ public class Gra {
         System.out.println(przeciwnik2.opisz_atak());
         System.out.println("Przeciwnik 3:");
         System.out.println(przeciwnik3.opisz_atak());
+
+        przeciwnik1.sposobAtaku = new Wrecz();
+        System.out.println("Przeciwnik 1 po zmianie:");
+        System.out.println(przeciwnik1.opisz_atak());
     }
 }
