@@ -1,4 +1,4 @@
-package org.example.strategia.gra;
+package org.example.strategia.gra.strategie;
 
 public class Wrecz implements SposobAtaku {
     @Override

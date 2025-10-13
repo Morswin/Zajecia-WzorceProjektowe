@@ -1,5 +1,9 @@
 package org.example.strategia.gra;
 
+import org.example.strategia.gra.strategie.Dystansowo;
+import org.example.strategia.gra.strategie.Magicznie;
+import org.example.strategia.gra.strategie.Wrecz;
+
 public class Gra {
     public static void main(String[] args) {
         Przeciwnik przeciwnik1 = new Przeciwnik(new Dystansowo());
