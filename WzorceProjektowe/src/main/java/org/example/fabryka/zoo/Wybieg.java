@@ -1,8 +1,8 @@
 package org.example.fabryka.zoo;
 
 public abstract class Wybieg {
-    String nazwa;
-    int ilosc;
+    String nazwaZwierzecia;
+    int iloscZwierzat;
     abstract void nakarm();
     abstract void posprzataj();
 }
