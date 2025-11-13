@@ -6,12 +6,12 @@ public class Drive {
     public static void main(String[] args) {
         Kelnerka<String> kelnerka = new Kelnerka<>();
 
-        System.out.println("Menu Pancake House");
+        System.out.println("SzkolaMagii Pancake House");
         String[] menuArray = {"Pancakes", "Waffles", "French Toast"};
         PancakeHouseMenu<String> pancakeHouseMenu = new PancakeHouseMenu<>(menuArray);
         kelnerka.drukujMenu(pancakeHouseMenu);
 
-        System.out.println("\nMenu Cafe");
+        System.out.println("\nSzkolaMagii Cafe");
         ArrayList<String> menuArray2 = new ArrayList<>();
         menuArray2.add("Espresso");
         menuArray2.add("Cappuccino");
