@@ -20,10 +20,10 @@ public abstract class KasaSamoobslogowa {
         System.out.println("Odkładanie produktów do strefy pakowania.");
     }
     public abstract void zaplac();
-    public void wydrukujPotwierdzenie() {
+    public final void wydrukujPotwierdzenie() {
         System.out.println("Drukowanie potwierdzenia.");
     }
-    public void wydrukujParagon() {
+    public final void wydrukujParagon() {
         System.out.println("Drukowanie paragonu.");
     }
 }
